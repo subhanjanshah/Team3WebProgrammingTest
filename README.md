@@ -63,7 +63,9 @@ Why: It makes the content look clean and modern, allowing the images of the food
 # Team members and Individual Contributions
 
 1.	Team Member: Subanjan Shah
+
 Contributions: 
+
 -	Created the index.php (Homepage) structure. 
 -	Designed the navigation bar (logo, links) and the footer (contact info, social media links).
 -	Implemented the Parallax Scrolling Effect on the homepage to make the background images move slowly. 
@@ -71,7 +73,9 @@ Contributions:
 -	Worked in the menu.php page and made sure the people can now click on the products and connected the cart.php page to the database table.
 
 2.	Team Member: Mohammad Ruhan Zahif Akhter Ghantiwala
+
 Contributions:
+
 -	Created the menu.php (Menu page).
 -	Designed the grid layout to display the coffee, drinks, and snacks in clean rows. 
 -	Managed the project.css file. This involved choosing the color palette, fonts, and button styles. Also, added the Bootstrap in menu.php and help.php codes.
@@ -79,13 +83,16 @@ Contributions:
 -	Created the card.php page fully functional. 
 
 3.	Team Member:  Akmeemana Madduma Acharige Maheesha Nuwangie Sumanadasa
-Contributions: 
+
+Contributions:
+
 -	Created the help.php (Contact page) with the contact information. 
 -	Built the book a table modal (pop-up) where people can select a date and time. 
 -	Built the ‘order now’ modal on the top of the menu page so that the users can select quantity and see the total price.
 -	Created the login.php page and connected the page to database table to store the details.
 
 ## Joint Effort: 
+
 -	We all worked together to fix bugs and ensure the website worked correctly. 
 -	We tested the website on different screen sizes to make sure it looked good. 
 -	We brainstormed the ‘CGG Café’ brand name and theme together. 
