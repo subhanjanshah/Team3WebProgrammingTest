@@ -80,7 +80,7 @@ Contributions:
 -	Designed the grid layout to display the coffee, drinks, and snacks in clean rows. 
 -	Managed the project.css file. This involved choosing the color palette, fonts, and button styles. Also, added the Bootstrap in menu.php and help.php codes.
 -	Selected and optimized all the images used for the coffee and bakery items.
--	Created the card.php page fully functional. 
+-	Created the cart.php page and made it functional. 
 
 3.	Team Member:  Akmeemana Madduma Acharige Maheesha Nuwangie Sumanadasa
 
