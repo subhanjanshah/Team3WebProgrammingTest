@@ -17,18 +17,29 @@ a {
     text-decoration: none;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #472717;
+    height: 100px;
+    padding: 0 5%;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
 .login-container {
-    min-height: 80vh;
+    min-height: 100vh; 
     display: flex;
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    padding: 50px 20px;
-    /* Ensure you have this image in your folder */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('cafe-background.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../photosused/img.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding: 50px 20px;
 }
 
 .login-box {
@@ -118,6 +129,25 @@ a {
     background-color: #6b3c24;
 }
 
+/* --- ADDED SPECIAL HEADER BUTTON STYLE --- */
+.nav-right .login-btn {
+    width: auto !important;
+    padding: 8px 25px !important;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid rgba(251, 246, 240, 0.5);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav-right .login-btn:hover {
+    background-color: #FBF6F0;
+    color: #472717;
+    border-color: #FBF6F0;
+}
+
 .copyright {
     text-align: center;
     margin-top: 30px;
@@ -156,8 +186,10 @@ a {
 }
 
 .nav-right {
+    display: flex;
     justify-content: flex-end;
     gap: 15px;
+    align-items: center;
 }
 
 .nav-item {
@@ -206,7 +238,7 @@ a {
 }
 
 .user-name {
-    color: #472717;
+    color: #FBF6F0;
     font-weight: 500;
     font-size: 14px;
 }
@@ -284,11 +316,11 @@ a {
 }
 
 .parallax-section::before { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../photosused/img.jpg');
 }
 
 .parallax-section-2::before { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('coffee.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../photosused/coffee.jpeg');
 }
 
 .content-layer {
@@ -538,14 +570,70 @@ footer {
     transform: translateY(-3px);
 }
 
-@media (max-width: 768px) {
-    .footer-bar {
-        flex-direction: column;
-        gap: 20px;
-        text-align: center;
-    }
-    
-    .footer-social-section {
-        align-items: center;
-    }
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #d7ccc8;
+    margin: 0;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid #FBF6F0;
+    color: #FBF6F0 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-box:hover {
+    background-color: #FBF6F0;
+    color: #472717 !important;
+    transform: translateY(-3px);
+}
+
+.btn-box-dark {
+    border-color: #472717;
+    color: #472717 !important;
+}
+
+.btn-box-dark:hover {
+    background-color: #472717;
+    color: #FBF6F0 !important;
+}
+footer .footer-links a.footer-link-item, 
+footer .footer-links a.footer-link-item:visited {
+    color: #FBF6F0 !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center;
+}
+
+footer .footer-links a.footer-link-item:hover {
+    color: #d7ccc8 !important;
+    text-decoration: underline !important;
+}
+
+.footer-link-item:hover {
+    color: #d7ccc8 !important; 
+    transform: translateY(-2px); 
+}
+
+.footer-link-item i {
+    color: #d7ccc8;
 }
