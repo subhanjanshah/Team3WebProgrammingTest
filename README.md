@@ -3,13 +3,17 @@
 The website is for a Coffee shop or a Café. It is a business website designed for the customers so they can contact and get to know about the Café. When we initially started this project for the previous module '**Building a Static Website**' it was more focused on these following things:
 
 •	View the menu
+
 •	Reserve tables for specific time and date
+
 •	Find the information’s such as address, contact details, provide-give feedback, opening hours
 
 Further continuing this project for our current '**Web Programming**' module we will be adding a few more things, such as:
 
 • The 'Menu' page being able to take in orders - store the order datas,
+
 • The 'Create a Booking' page is able to take in booking requests and record the data aswell,
+
 • A new page 'Log In' is added where people can log in so they can book tables and order drinks easily.
 
 The theme of our website is modern and cozy. We used colors such as brown, beige, white, cream which reminds people of Coffee beans, chocolate and milk. It is designed to feel welcoming and relaxing.
