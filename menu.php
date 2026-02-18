@@ -2,7 +2,6 @@
 $pageTitle = "Menu - CGG Cafe";
 include 'header.php'; 
 ?>
-
 <div class="parallax-section" style="height: 50vh;">
     <div class="content-layer">
         <h1>Our Menu</h1>
@@ -112,7 +111,6 @@ include 'header.php';
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 
@@ -124,7 +122,7 @@ include 'header.php';
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <img id="modalItemImage" src="" class="card-img-top" style="height:360px; object-fit: cover;">
+                <img id="modalItemImage" src="" class="card-img-top" style=" height: 360px; object-fit: cover;">
                 <form id="orderForm">
                     <div class="mb-3">
                         <label class="form-label fw-bold">Quantity (1-10):</label>
@@ -190,6 +188,23 @@ function confirmOrder() {
         alert(finalQty + " x " + currentName + " added to cart!");
         myModal.hide();
     }
+}
+function addToCart() {
+    let finalQty = document.getElementById('orderQty').value;
+    let finalNotes = document.getElementById('orderNotes').value;
+
+    let order = {
+        name: currentName,
+        price: currentPrice,
+        qty: finalQty,
+        notes: finalNotes
+    };
+
+    // We use a fresh array [order] to replace whatever was there before
+    localStorage.setItem('cgg_cart', JSON.stringify([order]));
+
+    alert("Order added! Going to cart...");
+    window.location.href = "cart.php";
 }
 </script>
 <?php include 'footer.php'; ?>
