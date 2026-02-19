@@ -86,7 +86,7 @@ This feature handles the security and persistence of customer identity
 
 • Description: Created the login.php interface and the backend processing script create2.php. This system captures user creadentials and stores them in the users table (targeting the pswd column), ensuring the website is fully database-driven for user management.
 
-• Key Files: [GitHub: Login.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/login.php) , create2.php
+• Key Files: [GitHub: Login.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/login.php) , [GitHub: create2.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/create2.php)
 
 • Live Demo: [Shell: Sign In](https://shell.hamk.fi/~amk1012141/ProjectWork/Codes/login.php)
 
@@ -134,9 +134,9 @@ In this section, we document the interactive forms that allow users to communica
 
   • Linnks: [GitHub: menu.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/menu.php) and [Shell: Menu.php](https://shell.hamk.fi/~amk1012141/ProjectWork/Codes/menu.php)
 
-  • Purpose: To capture the specific quantity of coffee or bakery items selected by              the user and process the final subtotal for the database.
+  • Purpose: To capture the specific quantity of coffee or bakery items selected by the user and process the final subtotal for the database.
 
-  • Validations Applied: JS ensured that the quantity input cannot be zero or a                              negative number before adding to the cart. 
+  • Validations Applied: JS ensured that the quantity input cannot be zero or a negative number before adding to the cart. 
 
   • Data Integrity: The 'Order Now' button is disabled via JS if the cart is empty to prevent blank database entries.
 
@@ -147,11 +147,11 @@ In this section, we document the interactive forms that allow users to communica
 
   • Links: [GitHub: cart.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/cart.php) and [Shell: cart.php](https://shell.hamk.fi/~amk1012141/ProjectWork/Codes/cart.php)
 
-  • Purpose: To collect customer preferences for date, time, and seating location                to be managed via the adminstrative CRUD system. 
+  • Purpose: To collect customer preferences for date, time, and seating location to be managed via the adminstrative CRUD system. 
   
-  • Validations Applied: Required Date and Time pickers to ensure no null values                             are sent to the 'bookatable' table.
+  • Validations Applied: Required Date and Time pickers to ensure no null values are sent to the 'bookatable' table.
 
-  •  Format Validation: The 'Date' and 'Time' input types ensures that only valid                           chronological data is submitted. 
+  •  Format Validation: The 'Date' and 'Time' input types ensures that only valid chronological data is submitted. 
 
 
   ### Form 3 (by Maheesha): User Login/Registration Form
@@ -160,9 +160,9 @@ In this section, we document the interactive forms that allow users to communica
 
   • Links: [GitHub: login.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/login.php) and [Shell: login.php](https://shell.hamk.fi/~amk1012141/ProjectWork/Codes/login.php)
 
-  • Purpose: To securely collect user email addresses and passwords for account                  creating and session management.
+  • Purpose: To securely collect user email addresses and passwords for account creating and session management.
 
-  • Password Length: A JS listener is applied to check that the password meets a                         minimum length requirement before the 'Sign Up' button becomes                      active.
+  • Password Length: A JS listener is applied to check that the password meets a minimum length requirement before the 'Sign Up' button becomes active.
 
 ## Created tables
 
@@ -172,7 +172,7 @@ In this section, we document the database structures that store our application'
 
   • Table name: cart
 
-  • Links: [GitHub: create.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/create.php) and [Shell: view_orders.php]()
+  • Links: [GitHub: create.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/create.php) and [Shell: View Orders](https://shell.hamk.fi/~amk1012141/ProjectWork/Codes/cart.php)
 
   • Description: Stores individual product orders, includign the item name, price, and calculated subtotal. It is used to track sales and customer choices.
 
