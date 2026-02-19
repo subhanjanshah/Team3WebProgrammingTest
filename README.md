@@ -69,14 +69,14 @@ This is a comprehensive management system for handling physical café bookings.
 
     • Create: Customers submit reservations via the booking form.
     
-    • Read: Admin views all reservations in view_booking.php
+    • Read: Admin views all reservations in read1.php
     
-    • Update: Adming can reschedule bookings via edit_booking.php
+    • Update: Adming can reschedule bookings via update1.php
     
     • Delete: Admin can cancel bookings from the database.
 
 
-• Key Files: [GitHub: Cart.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/cart.php), view_booking.php, edit_booking.php (link from github)
+• Key Files: [GitHub: Cart.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/cart.php), [GitHub: read1.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/read1.php) , [GitHub: update1.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/update1.php).
 
 • Live demo: [Shell: Cart Page](https://shell.hamk.fi/~amk1012141/ProjectWork/Codes/cart.php)
 
@@ -181,7 +181,7 @@ In this section, we document the database structures that store our application'
 
   • Table name: bookatable
 
-  • Links: [GitHub: view_bookings.php]() and [Shell: view_bookings.php]()
+  • Links: [GitHub: read1.php](https://github.com/subhanjanshah/Team3WebProgrammingProject/blob/main/read1.php) and [Shell: read1.php](https://shell.hamk.fi/~amk1012141/ProjectWork/Codes/read1.php)
 
   • Description: Manages the café's reservation ssytem. it records the date, time and table preferences, allowing for full admministrative CRUP control over bookings.
 
